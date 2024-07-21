@@ -11,11 +11,11 @@ def pl1():
     player1 = random.randint(1,6)
     player1_2ci_zer = random.randint(1,6)
     
-    # Display the dice rolls for player 1
+    
     print_dice(player1)
     print_dice(player1_2ci_zer)
     
-    cem1 += player1 + player1_2ci_zer  # Update the total score for player 1
+    cem1 += player1 + player1_2ci_zer 
     print(f"Player 1 rolls: {player1} and {player1_2ci_zer} - Total score: {cem1}")
     time.sleep(1)
     return cem1
@@ -26,11 +26,11 @@ def pl2():
     player2 = random.randint(1,6)
     player2_2ci_zer = random.randint(1,6)
     
-    # Display the dice rolls for player 2
+    
     print_dice(player2)
     print_dice(player2_2ci_zer)
     
-    cem2 += player2 + player2_2ci_zer  # Update the total score for player 2
+    cem2 += player2 + player2_2ci_zer  
     print(f"Player 2 rolls: {player2} and {player2_2ci_zer} - Total score: {cem2}")
     time.sleep(1)
     return cem2
